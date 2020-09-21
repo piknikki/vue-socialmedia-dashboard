@@ -1,27 +1,28 @@
 <template>
   <div id="app">
-    <img class="logo" alt="Components logo" src="./assets/logo2.png">
+    <Navbar />
   </div>
 </template>
 
 <script>
+import Navbar from './components/Navbar'
 
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Navbar
+  }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-
-.logo {
-  width: 100px;
+  font-size: 2rem;
 }
 </style>

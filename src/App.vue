@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Navbar />
+    <h1 class="themeTitle">  Social Media Dashboard</h1>
     <Dashboard />
   </div>
 </template>

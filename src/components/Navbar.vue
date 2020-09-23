@@ -7,7 +7,8 @@
       <div class="navbar-end">
         <div class="field">
         <span class="toggle" @click="darkTheme = !darkTheme" id="switchRoundedDefault" name="switchRoundedDefault">
-          <i class="fal fa-toggle-on"></i>
+          <font-awesome-icon :icon="['fal', 'toggle-on']" />
+<!--          <i class="fal fa-toggle-on"></i>-->
         </span>
           <label for="switchRoundedDefault">Dark Mode</label>
         </div>
@@ -21,7 +22,8 @@
       <div class="navbar-end">
         <div class="field">
           <span class="toggle" @click="darkTheme = !darkTheme" id="switchRoundedOutlinedDefault" name="switchRoundedOutlinedDefault" >
-          <i class="fal fa-toggle-off"></i>
+            <font-awesome-icon :icon="['fal', 'toggle-off']" />
+<!--          <i class="fal fa-toggle-off"></i>-->
           </span>
           <label for="switchRoundedOutlinedDefault">Light Mode</label>
         </div>

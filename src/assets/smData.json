@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "user": "NathanF",
+        "totalFollowers": 23004,
+        "profiles": [
+            {
+                "userName": "@nathanf",
+                "platformName": "facebook",
+                "followers": 1987,
+                "followersUp": true,
+                "followersToday": 12,
+                "pageViews": 87,
+                "pvUp": true,
+                "likes": 52,
+                "likesUp": false
+            },
+            {
+                "userName": "@nathanf",
+                "platformName": "twitter",
+                "followers": 1044,
+                "followersUp": true,
+                "followersToday": 99,
+                "retweets": 117,
+                "pvUp": true,
+                "likes": 507,
+                "likesUp": true
+            },
+            {
+                "userName": "@realnathanf",
+                "platformName": "instagram",
+                "followers": 1044,
+                "followersUp": true,
+                "followersToday": 1099,
+                "profileViews": "52k",
+                "pvUp": true,
+                "likes": 5462,
+                "likesUp": true
+            },
+            {
+                "userName": "Nathan F.",
+                "platformName": "youtube",
+                "followers": 1044,
+                "followersUp": false,
+                "followersToday": 144,
+                "totalViews": 1407,
+                "pvUp": false,
+                "likes": 107,
+                "likesUp": false
+            }
+        ]
+    }
+
+]

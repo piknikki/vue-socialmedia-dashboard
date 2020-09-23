@@ -1,7 +1,6 @@
 <template>
   <div>
-    Social Media Dashboard
-    <span>Toggle</span>
+
   </div>
 </template>
 

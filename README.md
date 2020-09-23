@@ -1,4 +1,5 @@
 # vue-socialmedia-dashboard
+Using fontawesome icons for social and toggle.
 
 ## Project setup
 ```

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="columns" class="columns">
+    <div class="columns">
       <div class="column">
         <div id="facebook" class="card">
           <span class="facebook"><i class="fab fa-facebook-square"></i> </span>
@@ -71,35 +71,138 @@
 
     </div>
 
-    <div class="columns">
-      <div class="column">
-        <div class="card">
-          <div class="top-row">
-            <span class="box-label">Page Views</span>
-            <span class="facebook"><i class="fab fa-facebook-square"></i> </span>
+    <h1>Overview - Today</h1>
+      <div class="columns">
+        <div class="columns stats-column">
+          <div class="column">
+            <div class="card">
+              <div class="top-row">
+                <span class="box-label">Page Views</span>
+                <span class="facebook"><i class="fab fa-facebook-square"></i> </span>
+              </div>
+              <div class="bottom-row">
+                <span>87</span>
+                <span class="upToday">
+                  <i class="fas fa-caret-up"></i>
+                  3%
+                </span>
+              </div>
+            </div>
           </div>
-          <div class="bottom-row">
-            <span>87</span>
-            <span class="upToday">
-              <i class="fas fa-caret-up"></i>
-              3%
-            </span>
+          <div class="columns">
+            <div class="column">
+              <div class="card">
+                <div class="top-row">
+                  <span class="box-label">Likes</span>
+                  <span class="facebook"><i class="fab fa-facebook-square"></i> </span>
+                </div>
+                <div class="bottom-row">
+                  <span>52</span>
+                  <span class="downToday">
+                  <i class="fas fa-caret-down"></i>
+                  2%
+                </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="columns stats-column">
+        <div class="column">
+          <div class="card">
+            <div class="top-row">
+              <span class="box-label">Retweets</span>
+              <span class="twitter"><i class="fab fa-twitter"></i> </span>
+            </div>
+            <div class="bottom-row">
+              <span>117</span>
+              <span class="upToday">
+                <i class="fas fa-caret-up"></i>
+                303%
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="top-row">
+              <span class="box-label">Likes</span>
+              <span class="twitter"><i class="fab fa-twitter"></i> </span>
+            </div>
+            <div class="bottom-row">
+              <span>507</span>
+              <span class="upToday">
+                <i class="fas fa-caret-up"></i>
+                553%
+              </span>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="column">
-        <div class="card">
-          <div class="top-row">
-            <span class="box-label">Retweets</span>
-            <span class="twitter"><i class="fab fa-twitter"></i> </span>
+      <div class="columns stats-column">
+        <div class="column">
+          <div class="card">
+            <div class="top-row">
+              <span class="box-label">Profile Views</span>
+              <span class="instagram"><img class="instagram" src="../assets/icon-instagram.svg" alt="instagram"></span>
+            </div>
+            <div class="bottom-row">
+              <span>52000</span>
+              <span class="upToday">
+                <i class="fas fa-caret-up"></i>
+                1375%
+              </span>
+            </div>
           </div>
-          <div class="bottom-row">
-            <span>117</span>
-            <span class="upToday">
-              <i class="fas fa-caret-up"></i>
-              303%
-            </span>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="top-row">
+              <span class="box-label">Likes</span>
+              <span class="instagram"><img class="instagram" src="../assets/icon-instagram.svg" alt="instagram"></span>
+            </div>
+            <div class="bottom-row">
+              <span>5462</span>
+              <span class="upToday">
+                <i class="fas fa-caret-up"></i>
+                2257%
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns stats-column">
+        <div class="column">
+          <div class="card">
+            <div class="top-row">
+              <span class="box-label">Total Views</span>
+              <span class="youtube"><i class="fab fa-youtube"></i> </span>
+            </div>
+            <div class="bottom-row">
+              <span>1407</span>
+              <span class="downToday">
+                <i class="fas fa-caret-down"></i>
+                12%
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="top-row">
+              <span class="box-label">Likes</span>
+              <span class="youtube"><i class="fab fa-youtube"></i> </span>
+            </div>
+            <div class="bottom-row">
+              <span>107</span>
+              <span class="downToday">
+                <i class="fas fa-caret-down"></i>
+                19%
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -122,7 +225,10 @@ export default {
 </script>
 
 <style scoped>
-#columns {
+.stats-column {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
   width: 90%;
   margin: 0 auto;
 }

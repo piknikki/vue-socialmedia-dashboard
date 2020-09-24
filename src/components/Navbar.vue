@@ -37,7 +37,7 @@ export default {
   name: 'Navbar',
   data () {
     return {
-      darkTheme: true
+      darkTheme: false
     }
   }
 }

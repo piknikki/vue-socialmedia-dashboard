@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <Navbar />
-    <h1 class="themeTitle">  Social Media Dashboard</h1>
+    <h1 class="themeTitle">Social Media Dashboard</h1>
+    <h4>Total Followers: 23,004</h4>
     <Dashboard />
   </div>
 </template>
